@@ -1,0 +1,40 @@
+{
+  "name": "dice-tracker",
+  "version": "1.0.0",
+  "description": "app to track dice rolls",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js --hot --inline --history-api-fallback",
+    "build": "webpack -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mritzman/dice-tracker.git"
+  },
+  "author": "mritzman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mritzman/dice-tracker/issues"
+  },
+  "homepage": "https://github.com/mritzman/dice-tracker#readme",
+  "dependencies": {
+    "babel-core": "6.22.1",
+    "babel-loader": "6.2.10",
+    "babel-preset-es2015": "6.22.0",
+    "babel-preset-react": "6.22.0",
+    "react": "15.4.2",
+    "react-dom": "15.4.2",
+    "webpack": "1.14.0"
+  },
+  "devDependencies": {
+    "eslint": "3.14.1",
+    "eslint-config-airbnb": "14.0.0",
+    "eslint-plugin-import": "2.2.0",
+    "eslint-plugin-jsx-a11y": "3.0.2",
+    "eslint-plugin-react": "6.9.0",
+    "file-loader": "0.9.0",
+    "react-hot-loader": "1.3.1",
+    "webpack-dev-server": "1.16.2"
+  }
+}
