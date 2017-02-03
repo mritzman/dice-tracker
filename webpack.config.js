@@ -10,6 +10,10 @@ var config = {
     javascript: './js/app.js',
     html: './index.html'
   },
+  devServer: {
+    inline: true,
+    port: 3000
+  },
   output: {
     path: BUILD_DIR,
     filename: 'js/app.js'
